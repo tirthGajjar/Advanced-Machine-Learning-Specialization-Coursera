@@ -1,4 +1,4 @@
-[logo]: "../images/GradientDescentOptimizationProblem.png" "Logo Title Text 2"
+[logo]: ../images/GradientDescentOptimizationProblem.png "Logo Title Text 2"
 
 # Stochastic gradient descent
 
