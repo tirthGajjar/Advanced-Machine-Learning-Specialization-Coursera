@@ -24,8 +24,27 @@ Mini-batch stochastic gradient descent (mini-batch SGD) is a compromise between 
 To simplify the explanation, we focused on gradient descent for a single feature. Rest assured that gradient descent also works on feature sets that contain multiple features.
 
 
-## Gradient Descent Optimization Problem
+# An Overview of Gradient Descent Optimization Algorithms
+### Gradient descent optimization algorithms  
+ 1. Momentum
+ 2. Nesterov’s Accelerated Gradient
+ 3. Adagrad
+ 4. RMSprop
+ 5. Adadelta
+ 6. Adam
+ 7. Adamax
+ 8. Nadam
+ 
 
 ## References 
 - [Reducing Loss: Stochastic Gradient Descent](https://developers.google.com/machine-learning/crash-course/reducing-loss/stochastic-gradient-descent)
-- 
+- [Stochastic Gradient Descent with momentum](https://towardsdatascience.com/stochastic-gradient-descent-with-momentum-a84097641a5d)
+
+
+# TO-DO
+Read below articles  
+https://distill.pub/2017/momentum/  
+http://ruder.io/deep-learning-optimization-2017/index.html  
+http://cs231n.github.io/neural-networks-3/  
+https://www.youtube.com/playlist?list=PLtmWHNX-gukIc92m1K0P6bIOnZb-mg0hY  
+https://pdfs.semanticscholar.org/e2dc/8810671f76927d862e63faa29c401bdec5da.pdf  
