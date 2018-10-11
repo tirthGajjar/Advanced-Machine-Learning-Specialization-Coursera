@@ -1,7 +1,3 @@
-[GradientDescentOptimizationProblem]: ../images/GradientDescentOptimizationProblem.png "Logo Title Text 2"
-
-[Gradient Descent and Cost function PDF]: Gradient Descent and Cost function.pdf
-
 # Stochastic gradient descent
 
 - Extension of gradient descent method
@@ -15,12 +11,5 @@ Watch below videos for learning Gradient Descent and cost function with intution
 >[Lecture 2.6 — Linear Regression With One Variable | Gradient Descent Intuition](https://www.youtube.com/watch?v=YovTqTY-PYY&index=9&list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN)  
 >[Lecture 2.7 — Linear Regression With One Variable | Gradient Descent For Linear Regression](https://www.youtube.com/watch?v=GtSf2T6Co80&index=10&list=PLLssT5z_DsK-h9vYZkQkYNWcItqhlRJLN)  
 
-Notes created by me for the same topic can be found [here]([GradientDescentOptimizationProblem])
-Notes created by me for the same topic can be found [here]([Gradient Descent and Cost function PDF])
+Notes created by me for the same topic can be found [here](https://github.com/tirthGajjar/Advanced-Machine-Learning-Specialization-Coursera/blob/Course-1-Week-1/Course%201%20-%20Introduction%20to%20Deep%20Learning/Week%201/Gradient%20Descent%20and%20Cost%20function.pdf).  
 ## Gradient Descent Optimization Problem
-
-![GradientDescentOptimizationProblem.png][GradientDescentOptimizationProblem]
-
-
-
-
