@@ -11,6 +11,15 @@ Watch below videos to learn about Gradient Descent and Cost functions with intui
 
 Notes created by me for the same topic can be found [here](https://github.com/tirthGajjar/Advanced-Machine-Learning-Specialization-Coursera/blob/Course-1-Week-1/Course%201%20-%20Introduction%20to%20Deep%20Learning/Week%201/Gradient%20Descent%20and%20Cost%20function.pdf).  
 
+## loss functions
+1. Cross-Entropy  
+2. Hinge
+3. Huber
+4. Kullback-Leibler
+5. MAE (L1)
+6. MSE (L2)
+
+
 # Stochastic gradient descent
 
 In gradient descent, a batch is the total number of examples you use to calculate the gradient in a single iteration. So far, we've assumed that the batch has been the entire data set. When working at Google scale, data sets often contain billions or even hundreds of billions of examples. Furthermore, Google data sets often contain huge numbers of features. Consequently, a batch can be enormous. A very large batch may cause even a single iteration to take a very long time to compute.
