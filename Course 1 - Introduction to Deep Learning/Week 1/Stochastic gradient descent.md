@@ -11,15 +11,6 @@ Watch below videos to learn about Gradient Descent and Cost functions with intui
 
 Notes created by me for the same topic can be found [here](https://github.com/tirthGajjar/Advanced-Machine-Learning-Specialization-Coursera/blob/Course-1-Week-1/Course%201%20-%20Introduction%20to%20Deep%20Learning/Week%201/Gradient%20Descent%20and%20Cost%20function.pdf).  
 
-## loss functions
-1. Cross-Entropy  
-2. Hinge
-3. Huber
-4. Kullback-Leibler
-5. MAE (L1)
-6. MSE (L2)
-
-
 # Stochastic gradient descent
 
 In gradient descent, a batch is the total number of examples you use to calculate the gradient in a single iteration. So far, we've assumed that the batch has been the entire data set. When working at Google scale, data sets often contain billions or even hundreds of billions of examples. Furthermore, Google data sets often contain huge numbers of features. Consequently, a batch can be enormous. A very large batch may cause even a single iteration to take a very long time to compute.
@@ -32,28 +23,15 @@ Mini-batch stochastic gradient descent (mini-batch SGD) is a compromise between 
 
 To simplify the explanation, we focused on gradient descent for a single feature. Rest assured that gradient descent also works on feature sets that contain multiple features.
 
+## Cons of using stochastic gradient descent 
+ They're much faster than
+gradient descent and can be used in online learning setting. But they have some problems.
+They have learning rates that should be somehow chosen and they can have some
+problems with difficult functions.
 
-# An Overview of Gradient Descent Optimization Algorithms
-### Gradient descent optimization algorithms  
- 1. Momentum
- 2. Nesterov’s Accelerated Gradient
- 3. Adagrad
- 4. RMSprop
- 5. Adadelta
- 6. Adam
- 7. Adamax
- 8. Nadam
- 
+
+## Gradient Descent Optimization Problem
 
 ## References 
 - [Reducing Loss: Stochastic Gradient Descent](https://developers.google.com/machine-learning/crash-course/reducing-loss/stochastic-gradient-descent)
-- [Stochastic Gradient Descent with momentum](https://towardsdatascience.com/stochastic-gradient-descent-with-momentum-a84097641a5d)
-
-
-# TO-DO
-Read below articles  
-https://distill.pub/2017/momentum/  
-http://ruder.io/deep-learning-optimization-2017/index.html  
-http://cs231n.github.io/neural-networks-3/  
-https://www.youtube.com/playlist?list=PLtmWHNX-gukIc92m1K0P6bIOnZb-mg0hY  
-https://pdfs.semanticscholar.org/e2dc/8810671f76927d862e63faa29c401bdec5da.pdf  
+- 
