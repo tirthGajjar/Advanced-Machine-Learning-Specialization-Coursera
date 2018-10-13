@@ -26,7 +26,6 @@ def batch_gradient_descent(model, eta, max_iterations=1e4, epsilon=1e-5, weights
 
     intution::
     ````````````````````````````````````````````````````````````
-
 	References:
 	````````````````````````````````````````````````````````````
 	Code reference			:	https://github.com/idc9/optimization_algos/blob/master/opt_algos/gradient_descent.py
@@ -64,6 +63,6 @@ def batch_gradient_descent(model, eta, max_iterations=1e4, epsilon=1e-5, weights
 	print('Gradient Descent finished after' + str(iterator) + 'iterations')
 
 	return {
-    	'trained_weights': weights_current,
+		'trained_weights': weights_current,
 		'weights_history': weights_history
 	}
