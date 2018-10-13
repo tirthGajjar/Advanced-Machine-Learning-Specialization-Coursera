@@ -20,12 +20,7 @@ def batch_gradient_descent(model, eta, max_iterations=1e4, epsilon=1e-5, weights
     ````````````````````````````````````````````````````````````
     + trained_weights	:   final weights value
     + weights_history   :   weight values from each iteration
-
-    Logic::
-    ````````````````````````````````````````````````````````````
-
-    intution::
-    ````````````````````````````````````````````````````````````
+	
 	References:
 	````````````````````````````````````````````````````````````
 	Code reference			:	https://github.com/idc9/optimization_algos/blob/master/opt_algos/gradient_descent.py
