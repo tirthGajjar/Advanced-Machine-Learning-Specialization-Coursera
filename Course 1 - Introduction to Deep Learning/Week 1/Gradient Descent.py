@@ -20,13 +20,14 @@ def batch_gradient_descent(model, eta, max_iterations=1e4, epsilon=1e-5, weights
     ````````````````````````````````````````````````````````````
     + trained_weights	:   final weights value
     + weights_history   :   weight values from each iteration
-	
-	References:
-	````````````````````````````````````````````````````````````
-	Code reference			:	https://github.com/idc9/optimization_algos/blob/master/opt_algos/gradient_descent.py
-	Numpy Linalg Norm		:	https://docs.scipy.org/doc/numpy-1.15.1/reference/generated/numpy.linalg.norm.html
-	GD stopping Condition	:	https://stats.stackexchange.com/questions/33136/how-to-define-the-termination-condition-for-gradient-descent
+    
+    References:
+    ````````````````````````````````````````````````````````````
+    Code reference		:	https://github.com/idc9/optimization_algos/blob/master/opt_algos/gradient_descent.py
+    Numpy Linalg Norm		:	https://docs.scipy.org/doc/numpy-1.15.1/reference/generated/numpy.linalg.norm.html
+    GD stopping Condition	:	https://stats.stackexchange.com/questions/33136/how-to-define-the-termination-condition-for-gradient-descent
     """
+
 	# Get data and Gradient function from the model
 	# Example: For Least Squares loss function, gradient_of_loss_function is = np.dot(self.X.T, np.dot(self.X, beta) - self.y)
 	gradient_of_loss_function = model.gradient_of_loss_function
