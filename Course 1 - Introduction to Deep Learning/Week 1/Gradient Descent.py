@@ -29,6 +29,7 @@ def batch_gradient_descent(model, eta, max_iterations=1e4, epsilon=1e-5, weights
     """
 
 	# Get data and Gradient function from the model
+	# Example: For Least Squares loss function, gradient_of_loss_function is = np.dot(self.X.T, np.dot(self.X, beta) - self.y)
 	gradient_of_loss_function = model.gradient_of_loss_function
 	data = model.data
 	# Check if initial weights are given, otherwise generate random weights
@@ -45,8 +46,7 @@ def batch_gradient_descent(model, eta, max_iterations=1e4, epsilon=1e-5, weights
 		weights_history.append(weights_current)
 
 		# Update the gradient as per the formula or gradient descent
-		weights_next=weights_current - eta * \
-		    gradient_of_loss_function(weights_current)
+		weights_next = weights_current - eta * gradient_of_loss_function(weights_current)
 
 		# If relative error is smaller than the epsilon then break the iterations
 		# Stop when the improvement drops below the tolerance threshold
