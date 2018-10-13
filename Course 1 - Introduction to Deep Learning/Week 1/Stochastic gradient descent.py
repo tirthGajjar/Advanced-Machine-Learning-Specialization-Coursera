@@ -14,7 +14,7 @@ def stochastic_gradient_descent(model, eta, max_iterations=1e4, epsilon=1e-5, ba
     + eta             :   learning rate
     + max_iterations  :   maximum number of gradient iterations
     + epsilon         :   tolerance for stopping condition
-	+ batch_size	   :   mini-batch size (if equal to one, it is Stochastic gradient descent)
+	+ batch_size	  :   mini-batch size (if equal to one, it is Stochastic gradient descent)
     + weights_start   :   where to start (otherwise random)
 
     Output::
