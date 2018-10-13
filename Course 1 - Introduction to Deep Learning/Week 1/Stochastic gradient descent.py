@@ -1,7 +1,7 @@
 import numpy as np
 
 
-def stochastic_gradient_descent(model, eta, max_iterations=1e4, epsilon=1e-5, bacth_size, weights_start=None):
+def stochastic_gradient_descent(model, eta, bacth_size, max_iterations=1e4, epsilon=1e-5, weights_start=None):
     """
     Mini-Batch (Stochastic) Gradient Descent
     ==============================================================================
@@ -44,7 +44,7 @@ def stochastic_gradient_descent(model, eta, max_iterations=1e4, epsilon=1e-5, ba
     # Keep track of how weights are changing over iterations
     weights_history = []
 
-    for iterator in range(int(max_iterations):
+    for iterator in range(int(max_iterations)):
 
         weights_history.append(weights_current)
 
