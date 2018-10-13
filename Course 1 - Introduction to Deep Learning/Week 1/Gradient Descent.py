@@ -24,8 +24,6 @@ def batch_gradient_descent(model, eta, max_iterations=1e4, epsilon=1e-5, weights
     Logic::
     ````````````````````````````````````````````````````````````
 
-
-
     intution::
     ````````````````````````````````````````````````````````````
 
@@ -43,7 +41,7 @@ def batch_gradient_descent(model, eta, max_iterations=1e4, epsilon=1e-5, weights
 		weights_current = weights_start
 	else:
 		weights_current = np.random.normal(loc=0, scale=1, size=data)
-	
+
 	# Keep track of how weights are changing over iterations
 	weights_history = []
 
@@ -52,18 +50,19 @@ def batch_gradient_descent(model, eta, max_iterations=1e4, epsilon=1e-5, weights
 		weights_history.append(weights_current)
 
 		# Update the gradient as per the formula or gradient descent
-		weights_next = weights_current - eta * gradient_of_loss_function(weights_current)
-		
+		weights_next=weights_current - eta * \
+		    gradient_of_loss_function(weights_current)
+
 		# If relative error is smaller than the epsilon then break the iterations
 		# Stop when the improvement drops below the tolerance threshold
 		# We have taken Frobenius norm here
 		if np.linalg.norm(wieghts_next - weights_current) <= epsilon * np.linalg.norm(weights_current):
 			break;
 
-		weights_next = weights_current
+		weights_next=weights_current
 
 	print('Gradient Descent finished after' + str(iterator) + 'iterations')
-	
+
 	return {
     	'trained_weights': weights_current,
 		'weights_history': weights_history
